@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Turbo Road Racer 3D</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Three.js Library -->
+    <script src="libs/three.min.js"></script>
+<script src="libs/gltfloader.js"></script>
+</head>
+<body>
+    <div id="game-container"></div>
+
+    <div id="ui-layer">
+        <div id="hud" class="hidden">
+            <div class="hud-item">Score: <span id="score">0</span></div>
+            <div class="hud-item">High: <span id="high-score">0</span></div>
+            <div class="hud-item">Speed: <span id="speed">100</span> km/h</div>
+        </div>
+
+        <div id="start-screen" class="screen">
+            <h1>TURBO ROAD RACER</h1>
+            <p>तीव्र 3D रेसिंग अनुभव</p>
+            <button id="start-btn">Start Game</button>
+            <div class="controls-info">Controls: Left/Right Arrows or A/D <br> Mobile: Touch Buttons</div>
+        </div>
+
+        <div id="game-over-screen" class="screen hidden">
+            <h1>CRASHED!</h1>
+            <p>Your Score: <span id="final-score">0</span></p>
+            <button id="restart-btn">Try Again</button>
+        </div>
+
+        <div id="mobile-controls" class="hidden">
+            <button id="btn-left">◀</button>
+            <button id="btn-right">▶</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
