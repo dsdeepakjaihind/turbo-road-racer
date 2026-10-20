@@ -1,0 +1,82 @@
+
+{
+  "name": "Turbo Road Racer",
+  "version": "1.0.0",
+  "description": "Drive fast, dodge traffic, and collect coins in this 3D racing game.",
+  "genres": ["Racing"],
+  "entrypoint": "index.html",
+  "files": [
+    "index.html",
+    "style.css",
+    "game.js",
+    "libs/three.min.js",
+    "libs/gltfloader.js",
+    "tesla.glb"
+  ],
+  "orientation": "Any",
+  "supportsLowEndDevices": true,
+  "developer": {
+    "name": "Deepak Sharma",
+    "logo": [
+      {
+        "size": {
+          "width": 512,
+          "height": 512
+        },
+        "src": "images/developer-logo-512.png"
+      },
+      {
+        "size": {
+          "width": 256,
+          "height": 256
+        },
+        "src": "images/developer-logo-256.png"
+      },
+      {
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "src": "images/developer-logo-128.png"
+      }
+    ]
+  },
+  "marketingAssets": {
+    "horizontalBanners": [
+      {
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "src": "images/banner-1920x1080.png"
+      }
+    ],
+    "verticalBanners": [
+      {
+        "size": {
+          "width": 1080,
+          "height": 1920
+        },
+        "src": "images/banner-1080x1920.png"
+      }
+    ],
+    "screenshots": [
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "src": "images/game-screenshot-1920x1080.png"
+  }
+],
+    "gameIcons": [
+      {
+        "size": {
+          "width": 512,
+          "height": 512
+        },
+        "src": "images/game-icon-512.png"
+      }
+    ]
+  }
+}
